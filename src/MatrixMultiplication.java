@@ -16,7 +16,7 @@ public class MatrixMultiplication {
     }
 
     static int[][] receiveMatrix() {
-        
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the number of rows in the matrix: ");
