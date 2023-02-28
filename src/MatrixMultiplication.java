@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class MatrixMultiplication {
 
     public static void main(String[] args) {
+
         int[][] matrixOne = initializeMatrix(receiveMatrix());
         int[][] matrixTwo = initializeMatrix(receiveMatrix());
+
         if (matrixOne[0].length == matrixTwo.length) {
             System.out.println("Product Matrix: ");
             printMatrix(calculateMatrixMultiplication(matrixOne, matrixTwo));
@@ -14,6 +16,7 @@ public class MatrixMultiplication {
     }
 
     static int[][] receiveMatrix() {
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the number of rows in the matrix: ");
@@ -26,6 +29,7 @@ public class MatrixMultiplication {
     }
 
     static int[][] initializeMatrix(int[][] matrix) {
+
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < matrix.length; i++) {
@@ -38,6 +42,7 @@ public class MatrixMultiplication {
     }
 
     static void printMatrix(int[][] matrix) {
+
         for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
@@ -49,7 +54,7 @@ public class MatrixMultiplication {
     static int[][] calculateMatrixMultiplication(int[][] matrixOne, int[][] matrixTwo) {
 
         int[][] multipliedMatrix = new int[matrixOne.length][matrixTwo[0].length];
-        int sum=0;
+        int sum = 0;
 
         for (int i = 0; i < matrixTwo[0].length; i++) {
             for (int j = 0; j < matrixOne.length; j++) {
