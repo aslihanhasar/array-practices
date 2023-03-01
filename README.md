@@ -19,8 +19,7 @@
     ![img_1.png](img_1.png)
 
     * a SieveOfEratosthenes.java class that finds all prime numbers up to any given limit by using Sieve of Eratosthenes
-    algorithm.
-    * To more information, please [visit the link.](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+    algorithm. To more information, please [visit the link.](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
   
     ![img_2.png](img_2.png)
 
@@ -32,8 +31,8 @@
     * a PrimeFactorizationTheorem.java class that calculates prime factors (or divisors) of an integer number.
     In mathematics, the fundamental theorem of arithmetic, also called the unique factorization theorem and prime 
     factorization theorem, states that every integer greater than 1 can be represented uniquely as a product of prime
-    numbers, up to the order of the factors.
-    * To more information, please [visit the link.](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic)
+    numbers, up to the order of the factors. To more information, please [visit the link.](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic)
+   
     ![img_4.png](img_4.png)
 
       
